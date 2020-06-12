@@ -1,9 +1,10 @@
 import React from "react";
+import Landing from "./Components/Landing";
 
 function App() {
   return (
     <div>
-      <p>This is my portfolio</p>
+      <Landing />
     </div>
   );
 }
