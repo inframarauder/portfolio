@@ -174,3 +174,26 @@ nav span {
   border: 1px #3e92a3;
   border-radius: 50px;
 }
+
+#skills {
+  background-color: #3e92a3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#skills ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills ul li {
+  padding: 15px;
+}
+
+.skill {
+  height: 100px;
+}

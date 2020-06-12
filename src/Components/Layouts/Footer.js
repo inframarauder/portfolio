@@ -42,7 +42,21 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <p className="text-center">Developed by Subhasis Das &copy; 2020</p>
+      <p className="text-center">
+        Developed by Subhasis Das &copy; 2020
+        <br />
+        <small>
+          Theme inspired by{" "}
+          <a
+            href="https://willdecker.com"
+            className="text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Will Decker
+          </a>
+        </small>
+      </p>
     </footer>
   );
 };

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "HTML",
+    "logo": "/images/skills/html.png"
+  },
+  {
+    "name": "CSS",
+    "logo": "/images/skills/css.jpg"
+  },
+  {
+    "name": "Javascript",
+    "logo": "/images/skills/js.jpg"
+  },
+  {
+    "name": "Node.js",
+    "logo": "/images/skills/node.png"
+  },
+  {
+    "name": "MongoDB",
+    "logo": "/images/skills/mongo.png"
+  },
+  {
+    "name": "Express",
+    "logo": "/images/skills/express.png"
+  },
+  {
+    "name": "React",
+    "logo": "/images/skills/react.png"
+  },
+  {
+    "name": "Amazon Web Services",
+    "logo": "/images/skills/aws.png"
+  }
+]
