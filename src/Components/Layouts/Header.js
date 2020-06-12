@@ -38,6 +38,11 @@ const Header = () => {
           </a>
         </li>
         <li>
+          <a href="#skills" onClick={toggleMenu}>
+            SKILLS
+          </a>
+        </li>
+        <li>
           <a href="/projects" onClick={toggleMenu}>
             PROJECTS
           </a>
