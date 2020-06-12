@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
-import { Footer } from "./Components/Layouts";
+import { Header, Footer } from "./Components/Layouts";
 import Landing from "./Components/Landing";
 
 function App() {
   return (
     <Fragment>
+      <Header />
       <Landing />
       <Footer />
     </Fragment>
