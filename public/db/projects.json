@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Gourmet Food",
+    "description": "A complete food ordering for our college canteen.Comprises two android apps and a web admin interface.I built the entire backend as a set of two microservices using Node.js,Express and MongoDB and deployed the backend to AWS.",
+    "role": "Backend Developer,DevOps",
+    "image": "/images/projects/gourmetfood.png",
+    "link": "https://play.google.com/store/apps/details?id=devriel.gourmetfood&hl=en_IN"
+  },
+  {
+    "name": "Devriel Technologies Website",
+    "description": "The official website of Devriel Technologies, a complete MERN stack app.I built the entire website from scratch in less than two days using Node.js,Express,MongoDB and React.",
+    "role": "Full Stack Developer",
+    "image": "/images/projects/devrieltech.png",
+    "link": "https://devrieltech.com"
+  },
+  {
+    "name": "Literary Club Website",
+    "description": "The official website of the Literary club of our college,a complete MERN stack app. I built the entire backend and helped in integrating the Node.js based backend with the React based frontend.",
+    "role": "Full Stack Developer",
+    "image": "/images/projects/litclub.png",
+    "link": "https://litclubhitk.media"
+  },
+  {
+    "name": "HIT Crunch",
+    "description": "A comprehensive android application for sharing notes,question papers and announcements in our college. I built the backend using Node.js and Firebase cloud functions.",
+    "role": "Backend Developer",
+    "image": "/images/projects/hitcrunch.png",
+    "link": "https://play.google.com/store/apps/details?id=dschik.noticeboard&hl=en_IN"
+  },
+  {
+    "name": "TEDx HIT Kolkata Website",
+    "description": "The official website of the annual TEDx event of our college.I am the maintainer of the website.",
+    "role": "Maintainer",
+    "image": "/images/projects/tedx.png",
+    "link": "https://tedxhitkolkata.in/"
+  },
+  {
+    "name": "ORSI Website",
+    "description": "The official website of Operational Research Society of India.I built the entire backend the frontend for the admin panel using Node.js,Express,MongoDB and EJS.",
+    "role": "Full Stack Developer",
+    "image": "/images/projects/orsi.png",
+    "link": "https://orsihq.in"
+  },
+  {
+    "name": "Workagain",
+    "description": "A website that provides elderly citizens an opportunity to work again. I built the backend using Node.js,Express and MongoDb.",
+    "role": "Backend Developer",
+    "image": "/images/projects/workagain.png",
+    "link": "https://workagain.in"
+  }
+]
