@@ -12,6 +12,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -26,10 +27,7 @@ const Contact = () => {
         formData
       );
       setLoading(false);
-      alert(
-        "Thanks for reaching out to me! I will get back to you as soon as possible."
-      );
-      window.location.href = "/";
+      setSubmitted(true);
     } catch (error) {
       setLoading(false);
       console.error(error.message);
@@ -43,6 +41,10 @@ const Contact = () => {
       <Container id="formContainer">
         {loading ? (
           <Spinner />
+        ) : submitted ? (
+          <p className="text-center">
+            Thank you for contacting me! I will get back to you soon :)
+          </p>
         ) : (
           <Form className="text-center" onSubmit={(e) => handleSubmit(e)}>
             <Form.Group className="text-left">
