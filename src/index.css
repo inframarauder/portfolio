@@ -138,7 +138,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 30px;
+  padding: 20px;
   font-size: 2rem;
 }
 
@@ -188,4 +188,14 @@ nav span {
 .skill {
   height: 120px;
   padding: 20px;
+}
+
+#projects {
+  min-height: 100vh;
+  background-blend-mode: multiply;
+  background-image: url("/images/background.png");
+  background-color: #2a2d33;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
