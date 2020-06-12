@@ -13,7 +13,7 @@ const Skills = () => {
         console.error(error);
       }
     })();
-  }, [skills, setSkills]);
+  }, []);
   return (
     <div id="skills">
       <legend className="greet">Skills</legend>
