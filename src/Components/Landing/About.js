@@ -20,7 +20,11 @@ const About = () => {
             <p className="about-text">
               I'm an undergraduate student from Kolkata. I'm currently pursuing
               B.Tech in Computer Science & Engingeering from{" "}
-              <a href="https://heritageit.edu/">
+              <a
+                href="https://heritageit.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Heritage Institute of Technology, Kolkata
               </a>{" "}
               , with graduation due in 2021 .
@@ -36,8 +40,26 @@ const About = () => {
             </p>
             <p className="about-text">
               I am also a believer of open source and community spirit. I'm
-              associated with <a href="https://dschit.com/">DSC,HIT</a> and{" "}
-              <a href="https://gdgkolkata.org/">GDG Kolkata</a>
+              associated with{" "}
+              <a
+                href="https://dschit.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DSC,HIT
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://gdgkolkata.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GDG Kolkata
+              </a>
+            </p>
+            <p className="about-text">
+              If you want to hire me, collaborate with me or simply get in
+              touch, feel free to <a href="/contact">contact</a> me :)
             </p>
           </Col>
           <Col sm="6" className="text-center">
