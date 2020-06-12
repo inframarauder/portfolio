@@ -31,6 +31,7 @@ const Contact = () => {
       );
       window.location.href = "/";
     } catch (error) {
+      setLoading(false);
       console.error(error.message);
       alert("An error occured,please try again!");
     }

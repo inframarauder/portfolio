@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Header, Footer } from "./Components/Layouts";
+import { Header, Footer, NotFound } from "./Components/Layouts";
 import Landing from "./Components/Landing";
 import Contact from "./Components/Contact";
 
@@ -9,12 +9,9 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/">
-          <Landing />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/contact" component={Contact} />
+        <Route component={NotFound} />
       </Switch>
       <Footer />
     </Router>
