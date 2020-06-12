@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Container, Form, Button } from "react-bootstrap";
+import axios from "axios";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
+    name: "",
     email: "",
     subject: "",
     message: "",
@@ -12,10 +14,20 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
-    alert("This feature is not yet complete,please comeback later!");
+    try {
+      await axios.post(
+        "https://9faab4oj5a.execute-api.ap-south-1.amazonaws.com/dev/send_mail",
+        formData
+      );
+      alert(
+        "Thanks for reaching out to me! I will get back to you as soon as possible."
+      );
+    } catch (error) {
+      console.error(error.message);
+      alert("An error occured,please try again!");
+    }
   };
 
   return (
@@ -24,6 +36,17 @@ const Contact = () => {
       <Container id="formContainer">
         <Form className="text-center" onSubmit={(e) => handleSubmit(e)}>
           <Form.Group className="text-left">
+            <Form.Label>Name</Form.Label>
+            <Form.Control
+              type="text"
+              name="name"
+              placeholder="John Doe"
+              value={formData.name}
+              onChange={(e) => handleChange(e)}
+              required
+            />
+          </Form.Group>
+          <Form.Group className="text-left">
             <Form.Label>Email address</Form.Label>
             <Form.Control
               type="email"
@@ -31,6 +54,7 @@ const Contact = () => {
               placeholder="abc@xyz.com"
               value={formData.email}
               onChange={(e) => handleChange(e)}
+              required
             />
           </Form.Group>
           <Form.Group className="text-left">
@@ -41,6 +65,7 @@ const Contact = () => {
               placeholder="Enter subject"
               value={formData.subject}
               onChange={(e) => handleChange(e)}
+              required
             />
           </Form.Group>
           <Form.Group className="text-left">
@@ -52,6 +77,7 @@ const Contact = () => {
               placeholder="Leave a message for me,I will get back to you at the earliest!"
               value={formData.message}
               onChange={(e) => handleChange(e)}
+              required
             />
           </Form.Group>
           <Button variant="primary" type="submit">
