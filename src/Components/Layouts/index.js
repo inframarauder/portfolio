@@ -1,4 +1,4 @@
 import Footer from "./Footer";
 import Header from "./Header";
-
-export { Header, Footer };
+import Spinner from "./Spinner";
+export { Header, Footer, Spinner };

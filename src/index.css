@@ -282,3 +282,14 @@ nav span {
     max-width: 100%;
   }
 }
+#spinner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinner {
+  max-width: 100px;
+  max-height: 100px;
+}
