@@ -28,22 +28,17 @@ const Header = () => {
       <i className={`${iconClass} icon`} onClick={toggleMenu}></i>
       <ul className={`${menuVisibility}`}>
         <li>
-          <a href="#about" onClick={toggleMenu}>
+          <a href="/#about" onClick={toggleMenu}>
             ABOUT
           </a>
         </li>
         <li>
-          <a href="/resume" onClick={toggleMenu}>
-            RESUME
-          </a>
-        </li>
-        <li>
-          <a href="#skills" onClick={toggleMenu}>
+          <a href="/#skills" onClick={toggleMenu}>
             SKILLS
           </a>
         </li>
         <li>
-          <a href="#projects" onClick={toggleMenu}>
+          <a href="/#projects" onClick={toggleMenu}>
             PROJECTS
           </a>
         </li>

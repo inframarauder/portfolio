@@ -258,3 +258,27 @@ nav span {
     height: 450px;
   }
 }
+
+#contactForm {
+  background-color: #2a2d33;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+}
+
+#formContainer {
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  #formContainer {
+    max-width: 100%;
+  }
+}
