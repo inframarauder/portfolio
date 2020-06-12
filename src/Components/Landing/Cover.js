@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 const Cover = () => {
   return (
-    <div className="cover">
+    <div className="cover" id="home">
       <Row>
         <Col md="auto">
           <img src="/images/image1.jpg" alt="image1" className="cover-img" />
