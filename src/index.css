@@ -26,6 +26,9 @@ body {
   font-family: "Roboto Slab", serif;
   color: #f1f1f1;
 }
+#root {
+  overflow-x: hidden;
+}
 
 .cover {
   position: relative;
