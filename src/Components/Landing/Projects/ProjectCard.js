@@ -26,6 +26,7 @@ const ProjectCard = ({ project }) => {
           variant="top"
           src={project.image}
           style={{ height: "12rem" }}
+          alt={project.name}
         />
         <Card.Body>
           <Card.Title>

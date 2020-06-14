@@ -21,7 +21,7 @@ const Skills = () => {
         <p className="text-center">These technologies are my top skills :</p>
         <Row>
           {skills.map((skill) => (
-            <Col sm="2" key={skills.indexOf(skill)}>
+            <Col sm="3" key={skills.indexOf(skill)}>
               <img src={skill.logo} alt={skill.name} className="skill" />
             </Col>
           ))}

@@ -12,14 +12,14 @@ const About = () => {
           </Col>
           <Col sm="6">
             <p className="about-text">
-              I'm a full stack web developer, cloud and devops engineer,
-              programmer and blockchain enthusiast. I have over two years of
-              work experience, which is inclusive of both - freelancing and
+              I'm a full stack web developer, cloud and devops engineer and
+              blockchain and ML enthusiast. I have over two years of experience,
+              which is inclusive of personal projects, freelancing and
               internships.
             </p>
             <p className="about-text">
-              I'm an undergraduate student from Kolkata. I'm currently pursuing
-              B.Tech in Computer Science & Engingeering from{" "}
+              I'm an undergrad from Kolkata. I'm currently pursuing B.Tech in
+              Computer Science & Engingeering from{" "}
               <a
                 href="https://heritageit.edu/"
                 target="_blank"
@@ -34,9 +34,8 @@ const About = () => {
         <Row>
           <Col sm="6">
             <p className="about-text">
-              I keep learning and upgrading my tech skills, alongside my college
-              academics to keep myself in touch with the latest demands and
-              trends in the market.
+              I love exploring new technologies and using them to build
+              applications to solve real world problems.
             </p>
             <p className="about-text">
               I am also a believer of open source and community spirit. I'm
@@ -46,7 +45,7 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                DSC,HIT
+                DSC HIT
               </a>{" "}
               and{" "}
               <a
@@ -58,8 +57,8 @@ const About = () => {
               </a>
             </p>
             <p className="about-text">
-              If you want to hire me, collaborate with me or simply get in
-              touch, feel free to <a href="/contact">contact</a> me :)
+              To hire me, collaborate with me or simply get in touch, feel free
+              to <a href="/contact">contact</a> me :)
             </p>
           </Col>
           <Col sm="6" className="text-center">
