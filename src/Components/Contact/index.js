@@ -23,7 +23,7 @@ const Contact = () => {
     try {
       setLoading(true);
       await axios.post(
-        "https://9faab4oj5a.execute-api.ap-south-1.amazonaws.com/dev/send_mail",
+        "https://rhn6n9xr3k.execute-api.ap-south-1.amazonaws.com/dev/handle_form",
         formData
       );
       setLoading(false);
