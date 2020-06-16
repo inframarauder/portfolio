@@ -179,7 +179,7 @@ nav span {
 }
 
 #skills {
-  background-color: #17a2b9;
+  background-color: #2a2d33;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -193,6 +193,9 @@ nav span {
   max-width: 200px;
   margin: 10px;
   background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px;
+  border-radius: 20px;
 }
 
 #projects {
