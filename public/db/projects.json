@@ -28,13 +28,6 @@
     "link": "https://play.google.com/store/apps/details?id=dschik.noticeboard&hl=en_IN"
   },
   {
-    "name": "TEDx HIT Kolkata Website",
-    "description": "The official website of the annual TEDx event of our college.I am the maintainer of the website.",
-    "role": "Maintainer",
-    "image": "/images/projects/tedx.png",
-    "link": "https://tedxhitkolkata.in/"
-  },
-  {
     "name": "ORSI Website",
     "description": "The official website of Operational Research Society of India.I built the entire backend the frontend for the admin panel using Node.js,Express,MongoDB and EJS.",
     "role": "Full Stack Developer",
@@ -42,10 +35,17 @@
     "link": "https://orsihq.in"
   },
   {
-    "name": "Workagain",
-    "description": "A website that provides elderly citizens an opportunity to work again. I built the backend using Node.js,Express and MongoDb.",
-    "role": "Backend Developer",
-    "image": "/images/projects/workagain.png",
-    "link": "https://workagain.in"
+    "name": "Breaking Bad",
+    "description": "A simple React app that lists all the characters and their famous quotes from the show Breaking Bad.",
+    "role": "Frontend Developer",
+    "image": "/images/projects/breakingbad.png",
+    "link": "https://brba.netlify.app"
+  },
+  {
+    "name": "Thanos Snap",
+    "description": "A fun project using HTML,CSS and Javascript(jQuery) that emulates the snap of Thanos. The Avengers displayed on the screen randomly disappear and reappear after each snap.",
+    "role": "Frontend Developer",
+    "image": "/images/projects/thanossnap.png",
+    "link": "https://infit-snap.netlify.app"
   }
 ]
