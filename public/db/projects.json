@@ -3,8 +3,8 @@
     "name": "Public Movie Database (PMDb)",
     "description": "A MERN stack website where users can signup and rate & review movies. The rating of a movie shown in the website is the average of all the ratings given by various users.",
     "role": "Full Stack Developer",
-    "image": "/images/projects/gourmetfood.png",
-    "link": "https://play.google.com/store/apps/details?id=devriel.gourmetfood&hl=en_IN"
+    "image": "/images/projects/pmdb.png",
+    "link": "https://pmdbwebsite.netlify.app"
   },
   {
     "name": "Gourmet Food",
