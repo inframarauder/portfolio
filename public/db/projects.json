@@ -8,7 +8,7 @@
   },
   {
     "name": "Gourmet Food",
-    "description": "A complete food ordering for our college canteen.Comprises two android apps and a web admin interface.I built the entire backend as a set of two microservices using Node.js,Express and MongoDB and deployed the backend to AWS.",
+    "description": "A food ordering app for canteens.Built the entire backend as a set of two microservices using Node.js,Express and MongoDB and deployed them to AWS.",
     "role": "Backend Developer,DevOps",
     "image": "/images/projects/gourmetfood.png",
     "link": "https://play.google.com/store/apps/details?id=devriel.gourmetfood&hl=en_IN"
@@ -20,39 +20,12 @@
     "image": "/images/projects/devrieltech.png",
     "link": "https://devrieltech.com"
   },
-  {
-    "name": "Literary Club Website",
-    "description": "The official website of the Literary club of our college,a complete MERN stack app. I built the entire backend and helped in integrating the Node.js based backend with the React based frontend.",
-    "role": "Full Stack Developer",
-    "image": "/images/projects/litclub.png",
-    "link": "https://litclubhitk.media"
-  },
-  {
-    "name": "HIT Crunch",
-    "description": "A comprehensive android application for sharing notes,question papers and announcements in our college. I built the backend using Node.js and Firebase cloud functions.",
-    "role": "Backend Developer",
-    "image": "/images/projects/hitcrunch.png",
-    "link": "https://play.google.com/store/apps/details?id=dschik.noticeboard&hl=en_IN"
-  },
+
   {
     "name": "ORSI Website",
     "description": "The official website of Operational Research Society of India.I built the entire backend the frontend for the admin panel using Node.js,Express,MongoDB and EJS.",
     "role": "Full Stack Developer",
     "image": "/images/projects/orsi.png",
     "link": "https://orsihq.in"
-  },
-  {
-    "name": "Breaking Bad",
-    "description": "A simple React app that lists all the characters and their famous quotes from the show Breaking Bad.",
-    "role": "Frontend Developer",
-    "image": "/images/projects/breakingbad.png",
-    "link": "https://brba.netlify.app"
-  },
-  {
-    "name": "Thanos Snap",
-    "description": "A fun project using HTML,CSS and Javascript(jQuery) that emulates the snap of Thanos. The Avengers displayed on the screen randomly disappear and reappear after each snap.",
-    "role": "Frontend Developer",
-    "image": "/images/projects/thanossnap.png",
-    "link": "https://infit-snap.netlify.app"
   }
 ]

@@ -26,6 +26,16 @@ const Projects = () => {
             </Col>
           ))}
         </Row>
+        <h4 className="text-center">
+          {" "}
+          <a
+            href="https://github.com/subhasis020299"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ....view more projects
+          </a>
+        </h4>
       </Container>
     </div>
   );

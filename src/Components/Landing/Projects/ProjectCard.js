@@ -22,28 +22,26 @@ const ProjectCard = ({ project }) => {
         onMouseEnter={toggleOpacity}
         onMouseLeave={toggleOpacity}
       >
+        <Card.Title>
+          {project.name}
+          <br />
+          <small className="text-primary">{project.role}</small>
+        </Card.Title>
         <Card.Img
           variant="top"
           src={project.image}
           style={{ height: "12rem" }}
           alt={project.name}
         />
-        <Card.Body>
-          <Card.Title>
-            {project.name}
-            <br />
-            <small>{project.role}</small>
-          </Card.Title>
-          <Card.Text style={{ padding: "5", fontSize: "20" }}>
-            {project.description}
-          </Card.Text>
-        </Card.Body>
       </Card>
       <div
         className={`middle ${opacity.middle}`}
         onMouseEnter={toggleOpacity}
         onMouseLeave={toggleOpacity}
       >
+        <Card.Text style={{ padding: "5", fontSize: "20", textAlign: "left" }}>
+          {project.description}
+        </Card.Text>
         <a
           className="project-link"
           href={project.link}

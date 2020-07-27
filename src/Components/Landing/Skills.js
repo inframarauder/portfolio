@@ -28,9 +28,18 @@ const Skills = () => {
         </Row>
         <p className="text-center">
           Apart from these, I have good knowledge of Programming in
-          Java,C,C++,Python,Data Structures & Algorithms,SQL databases and
+          Python,Java,C,C++,Data Structures & Algorithms,SQL databases and
           System Design.
         </p>
+        <h4 className="text-center">
+          <a
+            href="https://docs.google.com/document/d/16APS-VMwvYVCDoRLN1xC-npeaSk_2sJoJJB94Pg13UE/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View my Resume
+          </a>
+        </h4>
       </Container>
     </div>
   );
