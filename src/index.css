@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 * {
@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Ubuntu Mono", monospace;
   color: #f1f1f1;
 }
 #root {
@@ -79,12 +79,6 @@ body {
   padding: 15px;
   margin: 5px;
   font-size: 20px;
-}
-
-#talkimg {
-  width: 100%;
-  height: 80%;
-  border: 2px solid#17a2b9;
 }
 
 .footer {
@@ -210,9 +204,9 @@ nav span {
 
 .project-card {
   padding: 20px;
-  margin: 20px;
-  height: 400px;
-  background-color: #2a2d33;
+  margin: 25px;
+  height: 420px;
+  background-color: #191a1d;
   background-blend-mode: multiply;
   border: 1px;
   border-radius: 20px;

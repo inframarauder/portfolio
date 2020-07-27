@@ -8,7 +8,14 @@ const About = () => {
       <Container>
         <Row>
           <Col sm="6">
-            <img src="/images/about.svg" alt="about" />
+            <lottie-player
+              src="https://assets9.lottiefiles.com/private_files/lf30_WdTEui.json"
+              background="transparent"
+              speed="1"
+              style={{ width: "300px", height: "300px" }}
+              loop
+              autoplay
+            ></lottie-player>
           </Col>
           <Col sm="6">
             <p className="about-text">
@@ -62,7 +69,14 @@ const About = () => {
             </p>
           </Col>
           <Col sm="6" className="text-center">
-            <img src="/images/image2.jpg" alt="talkimg" id="talkimg" />
+            <lottie-player
+              src="https://assets7.lottiefiles.com/packages/lf20_foZ22A.json"
+              background="transparent"
+              speed="1"
+              style={{ width: "300px", height: "300px" }}
+              loop
+              autoplay
+            ></lottie-player>
           </Col>
         </Row>
       </Container>
