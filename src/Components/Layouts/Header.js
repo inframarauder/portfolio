@@ -43,6 +43,17 @@ const Header = () => {
           </a>
         </li>
         <li>
+          {" "}
+          <a
+            href="https://medium.com/@subhasisdas125"
+            onClick={toggleMenu}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            BLOG
+          </a>
+        </li>
+        <li>
           <a href="/contact" onClick={toggleMenu}>
             CONTACT
           </a>
