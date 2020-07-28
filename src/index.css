@@ -182,14 +182,28 @@ nav span {
   text-align: center;
 }
 
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
 .skill {
   max-height: 100px;
   max-width: 200px;
   margin: 10px;
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 5px;
   border: 1px;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .skill-list {
+    flex-direction: column;
+  }
 }
 
 #projects {
@@ -200,6 +214,8 @@ nav span {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-card {
@@ -256,7 +272,6 @@ nav span {
 @media only screen and (max-width: 500px) {
   .project-card {
     font-size: 12px;
-    height: 450px;
   }
 }
 

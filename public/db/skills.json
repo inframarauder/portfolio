@@ -1,17 +1,5 @@
 [
   {
-    "name": "HTML",
-    "logo": "/images/skills/html.png"
-  },
-  {
-    "name": "CSS",
-    "logo": "/images/skills/css.png"
-  },
-  {
-    "name": "Javascript",
-    "logo": "/images/skills/js.png"
-  },
-  {
     "name": "Node.js",
     "logo": "/images/skills/node.png"
   },

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Skills = () => {
   const [skills, setSkills] = useState([]);
@@ -18,14 +18,14 @@ const Skills = () => {
     <div id="skills">
       <legend className="greet">Skills</legend>
       <Container>
-        <p className="text-center">These technologies are my top skills :</p>
-        <Row>
-          {skills.map((skill) => (
-            <Col sm="3" key={skills.indexOf(skill)}>
+        <p className="text-center">These technologies are my top skills</p>
+        <ul className="skill-list">
+          {skills.map((skill, i) => (
+            <li key={i}>
               <img src={skill.logo} alt={skill.name} className="skill" />
-            </Col>
+            </li>
           ))}
-        </Row>
+        </ul>
         <p className="text-center">
           Apart from these, I have good knowledge of Programming in
           Python,Java,C,C++,Data Structures & Algorithms,SQL databases and

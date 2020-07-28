@@ -30,7 +30,7 @@ const ProjectCard = ({ project }) => {
         <Card.Img
           variant="top"
           src={project.image}
-          style={{ height: "12rem" }}
+          className="project-img"
           alt={project.name}
         />
       </Card>
