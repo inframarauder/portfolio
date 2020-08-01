@@ -227,6 +227,11 @@ nav span {
   border-radius: 20px;
   transition: 0.5s ease;
 }
+
+.project-img {
+  max-height: 200px;
+}
+
 .middle {
   transition: 0.5s ease;
   position: absolute;
