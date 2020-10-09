@@ -1,5 +1,12 @@
 [
   {
+    "name": "SmallURL",
+    "description": "A simple and free to use URL shortening service built using the MERN stack with features such as a custom dashboard and click-analytics.",
+    "role": "Full Stack Developer",
+    "image": "/images/projects/smallurl.png",
+    "link": "https://mernurlshortener.herokuapp.com/"
+  },
+  {
     "name": "Public Movie Database (PMDb)",
     "description": "A MERN stack website where users can sign up and rate & review movies. The rating of a movie shown in the website is the average of all the ratings given by various users.",
     "role": "Full Stack Developer",
@@ -19,13 +26,5 @@
     "role": "Full Stack Developer",
     "image": "/images/projects/devrieltech.png",
     "link": "https://devrieltech.com"
-  },
-
-  {
-    "name": "ORSI Website",
-    "description": "The official website of Operational Research Society of India.I built the entire backend the frontend for the admin panel using Node.js,Express,MongoDB and EJS.",
-    "role": "Full Stack Developer",
-    "image": "/images/projects/orsi.png",
-    "link": "https://orsihq.in"
   }
 ]

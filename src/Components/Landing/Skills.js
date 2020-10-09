@@ -33,7 +33,7 @@ const Skills = () => {
         </p>
         <h4 className="text-center">
           <a
-            href="https://docs.google.com/document/d/16APS-VMwvYVCDoRLN1xC-npeaSk_2sJoJJB94Pg13UE/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1J2VaVc2_scYVVrqee_55Vs_jab_H8GIT/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
