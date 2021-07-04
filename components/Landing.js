@@ -21,13 +21,17 @@ const Landing = () => {
       />
       <div className="text-center my-2">
         <h2>Hi, I'm Subhasis &#x1F604; </h2>
-        <h4>Web Developer 🌐 | App Developer 📱 | Cloud Engineer ☁️</h4>
-        <Button
-          className={styles.contactMeButton}
-          onClick={() => (window.location.href = "/contact")}
-        >
-          <h4>Get In Touch ➡️</h4>
-        </Button>
+        <span className={styles.landingSubtext}>
+          Web Developer🌐|App Developer📱|Cloud Engineer☁️
+        </span>
+        <p>
+          <Button
+            className={styles.contactMeButton}
+            onClick={() => (window.location.href = "/contact")}
+          >
+            <h4>Get In Touch ➡️</h4>
+          </Button>
+        </p>
       </div>
     </div>
   );
