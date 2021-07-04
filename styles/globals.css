@@ -26,7 +26,20 @@ body {
   font-family: "Ubuntu Mono", monospace;
   background-color: #2a2d33;
   color: #f1f1f1;
-}
-#root {
   overflow-x: hidden;
+}
+
+.bg-striped {
+  background-image: url("/images/background.png");
+  background-blend-mode: multiply;
+  background-color: #2a2d33;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffcb37;
+  transition: 0.3s ease-in;
 }

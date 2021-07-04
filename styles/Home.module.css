@@ -30,7 +30,7 @@
   color: #f1f1f1;
 }
 .link:hover {
-  color: #17a2b9;
+  color: #ffcb37;
   transition: 0.3s ease-in;
 }
 
@@ -55,6 +55,28 @@
 .navlogo {
   height: 50px;
   margin: 10px;
-  border: 1px#17a2b9;
+  border: 1px #ffcb37;
   border-radius: 50px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+
+.image {
+  margin-top: 80px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid#FFCB37;
+  border-radius: 200px;
+}
+
+.aboutContainer {
+  margin-top: 40px;
+  padding: 10px;
 }
