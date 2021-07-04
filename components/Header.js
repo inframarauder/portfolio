@@ -39,11 +39,7 @@ const Header = () => {
             ABOUT
           </a>
         </li>
-        <li className={styles.listItem}>
-          <a href="/#skills" onClick={toggleMenu} className={styles.link}>
-            SKILLS
-          </a>
-        </li>
+
         <li className={styles.listItem}>
           <a href="/#projects" onClick={toggleMenu} className={styles.link}>
             PROJECTS

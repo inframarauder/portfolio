@@ -59,6 +59,34 @@
   border-radius: 50px;
 }
 
+.landing {
+  margin-top: 50px;
+  padding: 10px;
+  background-image: url("/images/background.png");
+  background-blend-mode: multiply;
+  background-color: #2a2d33;
+  height: 100vh;
+}
+
+.contactMeButton {
+  border: none;
+  background-color: #ffcb37;
+  width: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+}
+.contactMeButton:hover {
+  background-color: #ffcb37;
+}
+.contactMeButton:focus,
+.contactMeButton:active {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 .imgContainer {
   display: flex;
   flex-direction: column;
