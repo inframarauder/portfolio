@@ -6,7 +6,6 @@
 	z-index: 2;
 	background-color: #2a2d33;
 	overflow: hidden;
-	flex: 1;
 	box-shadow: 0px 3px 6px #00000029;
 }
 
@@ -60,12 +59,15 @@
 }
 
 .landing {
-	margin-top: 50px;
-	padding: 10px;
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	background-image: url("/images/background.png");
 	background-blend-mode: multiply;
 	background-color: #2a2d33;
-	height: 100vh;
 }
 
 .landingSubtext {
