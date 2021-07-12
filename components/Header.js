@@ -50,11 +50,11 @@ const Header = () => {
 					</a>
 				</li>
 
-				{/* <li className={styles.listItem}>
+				<li className={styles.listItem}>
 					<a href="/#projects" onClick={toggleMenu} className={styles.link}>
 						PROJECTS
 					</a>
-				</li> */}
+				</li>
 				<li className={styles.listItem}>
 					{" "}
 					<a
