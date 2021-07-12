@@ -24,7 +24,7 @@ export default [
 		url: "https://codeacious.tech",
 		logo: "/images/work/codeacious.png",
 		description:
-			"Worked using the MERN stack and AWS on their core products Sellacious (an e-commerce plugin), Coot(a complete SaaS deck of office products) and Greasy Monkey (a car service booking system).",
+			"Worked using the MERN stack and AWS on their core products - an e-commerce plugin , a complete SaaS deck of office products and a car service booking system.",
 	},
 	{
 		company: "Devriel Technologies",
