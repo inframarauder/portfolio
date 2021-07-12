@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import workData from "../data/work";
 
 const Work = () => {
 	return (
-		<Container className="my-4">
+		<div className={`${styles.workContainer}`}>
 			<h2 className="text-center my-4">
 				<u>WORK</u>
 			</h2>
@@ -36,7 +36,7 @@ const Work = () => {
 					</Col>
 				))}
 			</Row>
-		</Container>
+		</div>
 	);
 };
 
