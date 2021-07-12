@@ -44,6 +44,11 @@ const Header = () => {
 						ABOUT
 					</a>
 				</li>
+				<li className={styles.listItem}>
+					<a href="/#work" onClick={toggleMenu} className={styles.link}>
+						WORK
+					</a>
+				</li>
 
 				{/* <li className={styles.listItem}>
 					<a href="/#projects" onClick={toggleMenu} className={styles.link}>
