@@ -33,6 +33,7 @@ export default [
 		logo: "/images/projects/smallurl.png",
 		tech: ["Node.js", "Express", "MongoDB", "React", "Redux"],
 		projectLink: "https://mernurlshortener.herokuapp.com",
+		githubLink:"https://github.com/subhasis020299/smallurl"
 	},
 	{
 		title: "TEDxHITKolkata Website",
