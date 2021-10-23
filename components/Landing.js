@@ -27,7 +27,7 @@ const Landing = () => {
 					<div className="text-center my-2">
 						<h2>Hi, I'm Subhasis &#x1F604; </h2>
 						<span className={styles.landingSubtext}>
-							Web Developer🌐|App Developer📱|Cloud Engineer☁️
+							Cloud & DevOps Engineer☁️ | Fullstack Web Developer🌐
 						</span>
 						<p>
 							<Button

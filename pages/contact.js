@@ -95,14 +95,16 @@ const Contact = () => {
 									required
 								/>
 							</Form.Group>
-							<Button
-								variant="primary"
-								size="lg"
-								type="submit"
-								className={styles.submitBtn}
-							>
-								Send
-							</Button>
+							<Form.Group className="my-2 text-center">
+								<Button
+									variant="primary"
+									size="lg"
+									type="submit"
+									className={styles.submitBtn}
+								>
+									Send
+								</Button>
+							</Form.Group>
 						</Form>
 					)}
 				</Container>

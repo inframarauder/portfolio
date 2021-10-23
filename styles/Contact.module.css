@@ -22,10 +22,8 @@
 	border: none;
 	background-color: #ffcb37;
 	width: 200px;
-	margin-left: 35%;
-	margin-right: 25%;
 	transition: all 0.2s ease;
-	align-self: center;
+	cursor: pointer;
 }
 .submitBtn:hover {
 	background-color: #ffcb37;
@@ -47,8 +45,5 @@
 @media only screen and (max-width: 500px) {
 	.formContainer {
 		max-width: 100%;
-	}
-	.submitBtn {
-		margin-left: 15%;
 	}
 }
