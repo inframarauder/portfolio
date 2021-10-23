@@ -23,6 +23,7 @@ const About = () => {
 								href="https://www.heritageit.edu"
 								target="_blank"
 								rel="noopener noreferrer"
+								className={styles.link}
 							>
 								Heritage Institute of Technology, Kolkata.
 							</a>{" "}
@@ -31,6 +32,7 @@ const About = () => {
 								href="https://www.tcs.com/"
 								target="_blank"
 								rel="noopener noreferrer"
+								className={styles.link}
 							>
 								Tata Consultancy Services
 							</a>{" "}
@@ -60,6 +62,7 @@ const About = () => {
 								href="https://dschit.com/"
 								target="_blank"
 								rel="noopener noreferrer"
+								className={styles.link}
 							>
 								DSC,HIT
 							</a>{" "}
@@ -68,6 +71,7 @@ const About = () => {
 								href="https://gdg.community.dev/gdg-kolkata/"
 								target="_blank"
 								rel="noopener noreferrer"
+								className={styles.link}
 							>
 								GDG Kolkata.
 							</a>{" "}

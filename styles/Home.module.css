@@ -26,11 +26,10 @@
 }
 
 .link {
-	color: #f1f1f1;
+	color: #ffcb37;
 }
 .link:hover {
-	color: #ffcb37;
-	transition: 0.3s ease-in;
+	text-decoration: underline;
 }
 
 .icon {
