@@ -25,6 +25,15 @@
 	font-size: 2rem;
 }
 
+.navLink {
+	color: #f1f1f1;
+}
+
+.navLink:hover {
+	color: #ffcb37;
+	transition: 0.3s ease-in;
+}
+
 .link {
 	color: #ffcb37;
 }
@@ -116,31 +125,34 @@
 	font-size: 1.2rem;
 }
 
-.workContainer {
+.skillsContainer {
 	margin-top: 20px;
 	background-image: url("/images/background.png");
 	background-blend-mode: multiply;
 	background-color: #2a2d33;
 }
 
-.workCard,
+.skillCard,
 .projectCard {
 	margin: 25px;
 	padding: 10px;
-	height: 500px;
 	background-color: #191a1d;
 	background-blend-mode: multiply;
 	border: 1px;
 	border-radius: 20px;
 }
 
-.workCardImg,
+.projectCard {
+	height: 500px;
+}
+
+.skillCardImg,
 .projectCardImg {
 	height: 200px;
 	object-fit: contain;
-	background-color: #f1f1f1;
 	border-radius: 20px;
 	padding: 5px;
+	background-color: #f1f1f1;
 }
 
 .projectContainer {

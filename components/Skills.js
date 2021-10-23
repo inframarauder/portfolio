@@ -1,34 +1,29 @@
 import React from "react";
 import { Row, Col, Card } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
-import workData from "../data/work";
+import skillsData from "../data/skills";
 
 const Work = () => {
 	return (
-		<div className={`${styles.workContainer}`}>
+		<div className={`${styles.skillsContainer}`}>
 			<h2 className="text-center my-4">
-				<u>WORK</u>
+				<u>SKILLS</u>
 			</h2>
 			<p style={{ fontSize: "1.2rem", textAlign: "center" }}>
-				Here's a brief history of my work experience...
+				Here's everything that I can do :
 			</p>
 			<Row>
-				{workData.map((item, index) => (
+				{skillsData.map((item, index) => (
 					<Col sm={12} md={6} lg={4} key={index}>
-						<Card className={styles.workCard}>
+						<Card className={styles.skillCard}>
 							<Card.Img
 								variant="top"
-								src={item.logo}
-								className={styles.workCardImg}
+								src={item.avatar}
+								className={styles.skillCardImg}
 							/>
 							<Card.Body>
 								<Card.Title>
-									<a href={item.url}>
-										<h4>{item.company}</h4>
-									</a>
-									<span style={{ color: "#ffcb37" }}>{item.position}</span>
-									<br />
-									<small>({item.duration})</small>
+									<h4 style={{ color: "#ffcb37" }}>{item.name}</h4>
 								</Card.Title>
 								<Card.Text>{item.description}</Card.Text>
 							</Card.Body>

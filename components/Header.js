@@ -35,23 +35,23 @@ const Header = () => {
 			<i className={`${iconClass} ${styles.icon}`} onClick={toggleMenu}></i>
 			<ul className={`${styles.list} ${menuVisibility} `}>
 				<li className={styles.listItem}>
-					<a href="/#home" onClick={toggleMenu} className={styles.link}>
+					<a href="/#home" onClick={toggleMenu} className={styles.navLink}>
 						HOME
 					</a>
 				</li>
 				<li className={styles.listItem}>
-					<a href="/#about" onClick={toggleMenu} className={styles.link}>
+					<a href="/#about" onClick={toggleMenu} className={styles.navLink}>
 						ABOUT
 					</a>
 				</li>
 				<li className={styles.listItem}>
-					<a href="/#work" onClick={toggleMenu} className={styles.link}>
-						WORK
+					<a href="/#skills" onClick={toggleMenu} className={styles.navLink}>
+						SKILLS
 					</a>
 				</li>
 
 				<li className={styles.listItem}>
-					<a href="/#projects" onClick={toggleMenu} className={styles.link}>
+					<a href="/#projects" onClick={toggleMenu} className={styles.navLink}>
 						PROJECTS
 					</a>
 				</li>
@@ -62,13 +62,13 @@ const Header = () => {
 						onClick={toggleMenu}
 						target="_blank"
 						rel="noopener noreferrer"
-						className={styles.link}
+						className={styles.navLink}
 					>
 						BLOG
 					</a>
 				</li>
 				<li className={styles.listItem}>
-					<a href="/contact" onClick={toggleMenu} className={styles.link}>
+					<a href="/contact" onClick={toggleMenu} className={styles.navLink}>
 						CONTACT
 					</a>
 				</li>
