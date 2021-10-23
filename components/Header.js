@@ -56,6 +56,15 @@ const Header = () => {
 					</a>
 				</li>
 				<li className={styles.listItem}>
+					<a
+						href="/#certifications"
+						onClick={toggleMenu}
+						className={styles.navLink}
+					>
+						CERTIFICATIONS
+					</a>
+				</li>
+				<li className={styles.listItem}>
 					{" "}
 					<a
 						href="https://medium.com/@subhasisdas125"

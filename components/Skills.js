@@ -3,7 +3,7 @@ import { Row, Col, Card } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import skillsData from "../data/skills";
 
-const Work = () => {
+const Skills = () => {
 	return (
 		<div className={`${styles.skillsContainer}`}>
 			<h2 className="text-center my-4">
@@ -35,4 +35,4 @@ const Work = () => {
 	);
 };
 
-export default Work;
+export default Skills;

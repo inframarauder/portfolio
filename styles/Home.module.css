@@ -125,7 +125,8 @@
 	font-size: 1.2rem;
 }
 
-.skillsContainer {
+.skillsContainer,
+.certificationsContainer {
 	margin-top: 20px;
 	background-image: url("/images/background.png");
 	background-blend-mode: multiply;
@@ -133,7 +134,8 @@
 }
 
 .skillCard,
-.projectCard {
+.projectCard,
+.certificationCard {
 	margin: 25px;
 	padding: 10px;
 	background-color: #191a1d;
@@ -147,7 +149,8 @@
 }
 
 .skillCardImg,
-.projectCardImg {
+.projectCardImg,
+.certificationCardImg {
 	height: 200px;
 	object-fit: contain;
 	border-radius: 20px;

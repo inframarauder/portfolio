@@ -1,5 +1,12 @@
 import React from "react";
-import { Layout, About, Landing, Projects, Skills } from "../components";
+import {
+	Layout,
+	About,
+	Landing,
+	Projects,
+	Skills,
+	Certifications,
+} from "../components";
 
 const Home = () => {
 	return (
@@ -15,6 +22,9 @@ const Home = () => {
 			</div>
 			<div id="projects">
 				<Projects />
+			</div>
+			<div id="certifications">
+				<Certifications />
 			</div>
 		</Layout>
 	);
