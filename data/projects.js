@@ -27,13 +27,22 @@ export default [
 			"https://play.google.com/store/apps/details?id=devriel.gourmetfood",
 	},
 	{
+		title: "PMDb Next!",
+		description:
+			"A movie database app that lets you search, rate and review movies.",
+		logo: "/images/projects/pmdbnext.png",
+		tech: ["Next.js", "React", "MongoDB"],
+		projectLink: "https://pmdbnext.vercel.app",
+		githubLink: "https://github.com/subhasis020299/pmdb-next",
+	},
+	{
 		title: "SmallURL",
 		description:
 			"A simple URL shortener with click-tracking feature built using the MERN Stack",
 		logo: "/images/projects/smallurl.png",
 		tech: ["Node.js", "Express", "MongoDB", "React", "Redux"],
 		projectLink: "https://mernurlshortener.herokuapp.com",
-		githubLink:"https://github.com/subhasis020299/smallurl"
+		githubLink: "https://github.com/subhasis020299/smallurl",
 	},
 	{
 		title: "TEDxHITKolkata Website",
