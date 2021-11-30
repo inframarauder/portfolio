@@ -7,8 +7,9 @@ import {
 	Skills,
 	Certifications,
 } from "../components";
+import { projects, skills, certifications } from "../data";
 
-const Home = () => {
+const Home = ({ projects, skills, certifications }) => {
 	return (
 		<Layout>
 			<div id="home">
@@ -18,16 +19,26 @@ const Home = () => {
 				<About />
 			</div>
 			<div id="skills">
-				<Skills />
+				<Skills skills={skills} />
 			</div>
 			<div id="projects">
-				<Projects />
+				<Projects projects={projects} />
 			</div>
 			<div id="certifications">
-				<Certifications />
+				<Certifications certifications={certifications} />
 			</div>
 		</Layout>
 	);
 };
+
+export function getStaticProps(context) {
+	return {
+		props: {
+			projects,
+			skills,
+			certifications,
+		},
+	};
+}
 
 export default Home;

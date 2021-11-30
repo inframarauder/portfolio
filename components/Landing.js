@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Lottie from "react-lottie";
 import { Button } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
@@ -7,9 +7,9 @@ import landingLottie from "../lotties/landing-lottie.json";
 
 const Landing = () => {
 	return (
-		<div className={styles.landing}>
+		<Container fluid className={styles.landing}>
 			<Row>
-				<Col md="auto">
+				<Col className={styles.lottieContainer}>
 					<Lottie
 						options={{
 							loop: true,
@@ -19,11 +19,11 @@ const Landing = () => {
 								preserveAspectRatio: "xMidYMid slice",
 							},
 						}}
-						width={300}
-						height={300}
+						width={400}
+						height={400}
 					/>
 				</Col>
-				<Col md="auto">
+				<Col>
 					<div className="text-center my-2">
 						<h2>Hi, I'm Subhasis &#x1F604; </h2>
 						<span className={styles.landingSubtext}>
@@ -40,7 +40,7 @@ const Landing = () => {
 					</div>
 				</Col>
 			</Row>
-		</div>
+		</Container>
 	);
 };
 

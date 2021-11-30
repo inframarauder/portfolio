@@ -1,9 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Badge } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
-import projectData from "../data/projects";
 
-const Projects = () => {
+const Projects = ({ projects }) => {
 	return (
 		<div className={`${styles.projectContainer}`}>
 			<h2 className="text-center my-4">
@@ -14,7 +13,7 @@ const Projects = () => {
 				I have worked on....
 			</p>
 			<Row>
-				{projectData.map((item, index) => (
+				{projects.map((item, index) => (
 					<Col sm={12} md={6} lg={4} key={index}>
 						<Card className={styles.projectCard}>
 							<Card.Img

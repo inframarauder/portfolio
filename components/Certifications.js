@@ -1,9 +1,8 @@
 import React from "react";
 import { Row, Col, Card } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
-import certificationsData from "../data/certifications";
 
-const Certifications = () => {
+const Certifications = ({ certifications }) => {
 	return (
 		<div className={`${styles.certificationsContainer}`}>
 			<h2 className="text-center my-4">
@@ -13,7 +12,7 @@ const Certifications = () => {
 				Here's a list of my official certifications :
 			</p>
 			<Row>
-				{certificationsData.map((item, index) => (
+				{certifications.map((item, index) => (
 					<Col sm={12} md={6} lg={4} key={index}>
 						<Card className={styles.certificationCard}>
 							<Card.Img

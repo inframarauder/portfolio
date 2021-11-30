@@ -67,8 +67,8 @@
 }
 
 .landing {
-	display: flex;
 	height: 100vh;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -76,6 +76,12 @@
 	background-image: url("/images/background.png");
 	background-blend-mode: multiply;
 	background-color: #2a2d33;
+}
+
+.lottieContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .landingSubtext {

@@ -1,9 +1,8 @@
 import React from "react";
 import { Row, Col, Card } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
-import skillsData from "../data/skills";
 
-const Skills = () => {
+const Skills = ({ skills }) => {
 	return (
 		<div className={`${styles.skillsContainer}`}>
 			<h2 className="text-center my-4">
@@ -13,7 +12,7 @@ const Skills = () => {
 				Here's everything that I can do :
 			</p>
 			<Row>
-				{skillsData.map((item, index) => (
+				{skills.map((item, index) => (
 					<Col sm={12} md={6} lg={4} key={index}>
 						<Card className={styles.skillCard}>
 							<Card.Img
