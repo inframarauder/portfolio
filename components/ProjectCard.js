@@ -13,9 +13,12 @@ const ProjectCard = ({ project }) => {
 				<h3 className="text-2xl font-bold">{project.title}</h3>
 				<p className="text-md py-2">{project.description}</p>
 				<div className="flex flex-wrap">
-					{project.tech.map((tech) => (
+					{project.tech.map((tech, index) => (
 						<div className="p-2">
-							<span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">
+							<span
+								key={index}
+								className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2"
+							>
 								{tech}
 							</span>
 						</div>
