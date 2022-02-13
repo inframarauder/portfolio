@@ -6,7 +6,7 @@ const About = () => {
 		<div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 text-secondary min-h-screen">
 			<div className="mx-auto w-full py-6 bg-shaded flex flex-col  items-center">
 				<h1 className="text-4xl text-center my-8 p-2 ">
-					<p>Hi, I'm Subhasis 🙋</p>
+					<p>Hi, I am Subhasis 🙋</p>
 					<p className=" my-2 text-xs md:text-xl">
 						Fullstack Devloper 👨🏽‍💻 | DevOps Engineer ☁️ | Web3.0 Enthusiast 🔗
 					</p>
