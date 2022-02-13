@@ -1,7 +1,9 @@
 import React from "react";
 import About from "../components/About";
 import Projects from "../components/Projects";
+import Certifications from "../components/Certifications";
 import projects from "../data/projects";
+import certifications from "../data/certifications";
 
 const Home = () => {
 	return (
@@ -12,6 +14,9 @@ const Home = () => {
 			<div id="projects">
 				<Projects projects={projects} />
 			</div>
+			<div id="certifications">
+				<Certifications certifications={certifications} />
+			</div>
 		</div>
 	);
 };
@@ -20,6 +25,7 @@ export async function getStaticProps(ctx) {
 	return {
 		props: {
 			projects,
+			certifications,
 		},
 	};
 }

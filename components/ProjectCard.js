@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
 						rel="noopener noreferrer"
 						className="mx-2"
 					>
-						<button className="bg-highlight text-white font-bold py-2 px-4 rounded-lg flex justify-between items-center">
+						<button className="bg-highlight text-white font-bold py-2 px-2 rounded-lg flex justify-between items-center">
 							<span className="mx-2">View Project</span> <External />
 						</button>
 					</a>
@@ -38,7 +38,7 @@ const ProjectCard = ({ project }) => {
 						rel="noopener noreferrer"
 						className="mx-2"
 					>
-						<button className="bg-highlight text-white font-bold py-2 px-4 rounded-lg flex justify-between items-center">
+						<button className="bg-highlight text-white font-bold py-2 px-2 rounded-lg flex justify-between items-center">
 							<span className="mx-2">View Code</span> <External />
 						</button>
 					</a>
