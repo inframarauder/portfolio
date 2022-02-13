@@ -16,15 +16,15 @@ const transport = nodemailer.createTransport({
 export default async (req, res) => {
 	try {
 		if (req.method === "POST") {
-			const { name, email, subject, message } = req.body;
-			if (!name || !email || !subject) {
+			const { name, email, message } = req.body;
+			if (!name || !email || !message) {
 				return res
 					.status(400)
-					.json({ error: "name, email and subject are required!" });
+					.json({ error: "name, email and message are required!" });
 			} else {
 				const mailOptions = {
 					to: process.env.TO_EMAIL,
-					subject: `Mail from portfolio - ${subject}`,
+					subject: `Mail from portfolio website`,
 					html: `
           <p><strong> Sender :${name} ( ${email} ) </strong></p>
           <p>

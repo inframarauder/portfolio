@@ -1,44 +1,39 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import { External } from "./Icons";
 
 const Footer = () => {
 	return (
-		<footer className={styles.footer}>
-			<p className="text-center">
-				Wanna get in touch? Contact me here <a href="/contact">➡️</a>{" "}
-			</p>
-			<ul>
-				<li>
-					<a
-						href="https://www.linkedin.com/in/subhasis-das-6a00aa172/"
-						className="text-white"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img src="/images/linkedin.png" alt="linkedin" />
-					</a>
-				</li>
-				<li>
-					<a
-						href="https://twitter.com/geram_er_chhele"
-						className="btn"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img src="/images/twitter.png" alt="twitter" />
-					</a>
-				</li>
-				<li>
+		<footer className="bg-primary flex flex-col justify-center items-start px-4">
+			<div className="container mx-auto px-4 text-secondary text-center p-4">
+				<span>Made with ❤️ by Subhasis Das</span>
+
+				<div className="container mx-auto px-4 text-secondary text-center p-4 flex justify-center items-center">
 					<a
 						href="https://github.com/subhasis020299"
-						className="text-white"
 						target="_blank"
 						rel="noopener noreferrer"
+						className=" flex justify-center items-center  hover:underline hover:text-lg hover:text-highlight transition duration-150 ease-in-out"
 					>
-						<img src="/images/github.png" alt="github" />
+						<span className="mx-2">GitHub</span> <External />
 					</a>
-				</li>
-			</ul>
+					<a
+						href="https://linkedin.com/in/subhasis020299"
+						target="_blank"
+						rel="noopener noreferrer"
+						className=" flex justify-center items-center  hover:underline hover:text-lg hover:text-highlight transition duration-150 ease-in-out"
+					>
+						<span className="mx-2">LinkedIn</span> <External />
+					</a>
+					<a
+						href="https://twitter.com/geram_er_chhele"
+						target="_blank"
+						rel="noopener noreferrer"
+						className=" flex justify-center items-center  hover:underline hover:text-lg hover:text-highlight transition duration-150 ease-in-out"
+					>
+						<span className="mx-2">Twitter</span> <External />
+					</a>
+				</div>
+			</div>
 		</footer>
 	);
 };

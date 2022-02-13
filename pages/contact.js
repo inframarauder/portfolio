@@ -1,115 +1,129 @@
 import React, { useState } from "react";
-import { Container, Form, Button, Spinner } from "react-bootstrap";
+import { External } from "../components/Icons";
+import Loader from "../components/Loader";
 import axios from "axios";
-import { Layout } from "../components";
-import styles from "../styles/Contact.module.css";
 
 const Contact = () => {
-	const [formData, setFormData] = useState({
-		name: "",
-		email: "",
-		subject: "",
-		message: "",
-	});
-
-	const [loading, setLoading] = useState(false);
+	const [name, setName] = useState("");
+	const [email, setEmail] = useState("");
+	const [message, setMessage] = useState("");
 	const [submitted, setSubmitted] = useState(false);
-
-	const handleChange = (e) => {
-		setFormData({ ...formData, [e.target.name]: e.target.value });
-	};
+	const [loading, setLoading] = useState(false);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
+
+		setLoading(true);
 		try {
-			setLoading(true);
-			await axios.post("/api/email", formData);
-			setLoading(false);
+			await axios.post("/api/contact", { name, email, message });
 			setSubmitted(true);
 		} catch (error) {
-			setLoading(false);
-			console.error(error.message);
-			alert("An error occured,please try again!");
+			console.error(error);
+			if (error.response.data) {
+				alert(error.response.data.error);
+			} else {
+				alert("Something went wrong!");
+			}
 		}
+		setLoading(false);
 	};
 
 	return (
-		<Layout>
-			<div className={styles.contactForm}>
-				<h2 className="text-center my-4">
-					<u>Contact Me</u>
-				</h2>
-				<Container className={styles.formContainer}>
-					{loading ? (
-						<div className={styles.spinnerContainer}>
-							<Spinner animation="border" variant="warning" />
+		<div className="container min-h-screen bg-primary">
+			<legend className="text-center text-3xl py-4 text-secondary">
+				Contact
+			</legend>
+			<p className="text-center text-secondary text-lg px-4">
+				Drop me a message below and I will get back to you at the earliest.{" "}
+				<br />
+				You can also find me around the web ...{" "}
+				<span className="flex justify-center">
+					<a
+						href="https://github.com/subhasis020299"
+						target="_blank"
+						rel="noopener noreferrer"
+						className=" flex justify-center items-center  hover:underline hover:text-lg hover:text-highlight transition duration-150 ease-in-out"
+					>
+						<span className="mx-2">GitHub</span> <External />
+					</a>
+					<a
+						href="https://linkedin.com/in/subhasis020299"
+						target="_blank"
+						rel="noopener noreferrer"
+						className=" flex justify-center items-center  hover:underline hover:text-lg hover:text-highlight transition duration-150 ease-in-out"
+					>
+						<span className="mx-2">LinkedIn</span> <External />
+					</a>
+					<a
+						href="https://twitter.com/geram_er_chhele"
+						target="_blank"
+						rel="noopener noreferrer"
+						className=" flex justify-center items-center  hover:underline hover:text-lg hover:text-highlight transition duration-150 ease-in-out"
+					>
+						<span className="mx-2">Twitter</span> <External />
+					</a>
+				</span>
+			</p>
+			{loading ? (
+				<Loader />
+			) : (
+				<div className="flex flex-col justify-center items-center my-8 p-8">
+					{submitted ? (
+						<div className="text-center text-lg text-secondary">
+							Thank you for your message. I will get back to you as soon as
+							possible :)
 						</div>
-					) : submitted ? (
-						<p className="text-center">
-							Thank you for contacting me! I will get back to you soon :)
-						</p>
 					) : (
-						<Form onSubmit={(e) => handleSubmit(e)}>
-							<Form.Group className="my-2">
-								<Form.Label>Name</Form.Label>
-								<Form.Control
+						<form
+							onSubmit={handleSubmit}
+							className="flex flex-col justify-center border-4 border-highlight rounded-lg md:p-4 w-full  md:w-1/2"
+						>
+							<div className="flex flex-col py-4 px-4">
+								<label className="text-secondary text-lg">Name</label>
+								<input
 									type="text"
-									name="name"
+									className="w-full p-2 border border-highlight rounded"
 									placeholder="John Doe"
-									value={formData.name}
-									onChange={(e) => handleChange(e)}
-									required
+									value={name}
+									onChange={(e) => setName(e.target.value)}
+									required={true}
 								/>
-							</Form.Group>
-							<Form.Group className="my-2">
-								<Form.Label>Email address</Form.Label>
-								<Form.Control
+							</div>
+							<div className="flex flex-col py-4 px-4">
+								<label className="text-secondary text-lg">Email</label>
+								<input
 									type="email"
-									name="email"
-									placeholder="abc@xyz.com"
-									value={formData.email}
-									onChange={(e) => handleChange(e)}
-									required
+									className="w-full p-2 border border-highlight rounded"
+									placeholder="john@doe.com"
+									value={email}
+									onChange={(e) => setEmail(e.target.value)}
+									required={true}
 								/>
-							</Form.Group>
-							<Form.Group className="my-2">
-								<Form.Label>Subject</Form.Label>
-								<Form.Control
-									type="text"
-									name="subject"
-									placeholder="Enter subject"
-									value={formData.subject}
-									onChange={(e) => handleChange(e)}
-									required
-								/>
-							</Form.Group>
-							<Form.Group className="my-2">
-								<Form.Label>Message</Form.Label>
-								<Form.Control
-									as="textarea"
-									name="message"
-									rows="7"
-									placeholder="Leave a message for me,I will get back to you at the earliest!"
-									value={formData.message}
-									onChange={(e) => handleChange(e)}
-									required
-								/>
-							</Form.Group>
-							<Form.Group className="my-2 text-center">
-								<Button
-									variant="primary"
-									size="lg"
+							</div>
+							<div className="flex flex-col py-4 px-4">
+								<label className="text-secondary text-lg">Message</label>
+								<textarea
+									required={true}
+									value={message}
+									onChange={(e) => setMessage(e.target.value)}
+									className="w-full p-2 border border-highlight rounded"
+									rows={4}
+									placeholder="Hi, I am John Doe. I am a looking for a web developer for my project. Lets get in touch!"
+								></textarea>
+							</div>
+							<div className="flex justify-center item-center py-4 px-4">
+								<button
 									type="submit"
-									className={styles.submitBtn}
+									className="bg-highlight text-white font-bold py-2 px-2 rounded-lg"
 								>
-									Send
-								</Button>
-							</Form.Group>
-						</Form>
+									Submit{" "}
+								</button>
+							</div>
+						</form>
 					)}
-				</Container>
-			</div>
-		</Layout>
+				</div>
+			)}
+		</div>
 	);
 };
 

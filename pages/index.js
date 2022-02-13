@@ -1,25 +1,15 @@
 import React from "react";
-import {
-	Layout,
-	About,
-	Landing,
-	Projects,
-	Skills,
-	Certifications,
-} from "../components";
-import { projects, skills, certifications } from "../data";
+import About from "../components/About";
+import Projects from "../components/Projects";
+import Certifications from "../components/Certifications";
+import projects from "../data/projects";
+import certifications from "../data/certifications";
 
-const Home = ({ projects, skills, certifications }) => {
+const Home = () => {
 	return (
-		<Layout>
-			<div id="home">
-				<Landing />
-			</div>
+		<div className="container min-h-screen bg-primary">
 			<div id="about">
 				<About />
-			</div>
-			<div id="skills">
-				<Skills skills={skills} />
 			</div>
 			<div id="projects">
 				<Projects projects={projects} />
@@ -27,15 +17,14 @@ const Home = ({ projects, skills, certifications }) => {
 			<div id="certifications">
 				<Certifications certifications={certifications} />
 			</div>
-		</Layout>
+		</div>
 	);
 };
 
-export function getStaticProps(context) {
+export async function getStaticProps(ctx) {
 	return {
 		props: {
 			projects,
-			skills,
 			certifications,
 		},
 	};
