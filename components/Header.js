@@ -71,7 +71,10 @@ const Header = () => {
 			>
 				{/* logo */}
 				<Link href="/">
-					<div className="flex items-center py-5 px-2 text-secondary cursor-pointer">
+					<div
+						className="flex items-center py-5 px-2 text-secondary cursor-pointer"
+						onClick={toggleMenu}
+					>
 						<Home />
 						<span className="font-bold ml-4">subhasis.dev</span>
 					</div>
@@ -79,19 +82,34 @@ const Header = () => {
 				{/**options */}
 				<div className="flex flex-col">
 					<ul className="my-auto mx-4 list-none flex flex-col items-start">
-						<li className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200">
+						<li
+							onClick={toggleMenu}
+							className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200"
+						>
 							<Link href="/">Home</Link>
 						</li>
-						<li className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200">
+						<li
+							onClick={toggleMenu}
+							className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200"
+						>
 							<Link href="/#projects">Projects</Link>
 						</li>
-						<li className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200">
+						<li
+							onClick={toggleMenu}
+							className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200"
+						>
 							<Link href="/#certifications">Certifications</Link>
 						</li>
-						<li className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200">
+						<li
+							onClick={toggleMenu}
+							className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200"
+						>
 							<Link href="/contact">Contact</Link>
 						</li>
-						<li className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200">
+						<li
+							onClick={toggleMenu}
+							className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200"
+						>
 							<a
 								href="https://medium.com/@subhasisdas125"
 								target="_blank"
