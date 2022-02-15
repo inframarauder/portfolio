@@ -29,7 +29,10 @@ const Header = () => {
 					<div className="hidden md:flex items-center justify-between space-x-1">
 						<ul className="my-auto mx-4 list-none flex items-center">
 							<li className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200">
-								<Link href="/">Home</Link>
+								<Link href="/#home">Home</Link>
+							</li>
+							<li className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200">
+								<Link href="/#about">About</Link>
 							</li>
 							<li className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200">
 								<Link href="/#projects">Projects</Link>
@@ -86,7 +89,13 @@ const Header = () => {
 							onClick={toggleMenu}
 							className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200"
 						>
-							<Link href="/">Home</Link>
+							<Link href="/#home">Home</Link>
+						</li>
+						<li
+							onClick={toggleMenu}
+							className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200"
+						>
+							<Link href="/#about">About</Link>
 						</li>
 						<li
 							onClick={toggleMenu}
