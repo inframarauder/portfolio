@@ -1,13 +1,17 @@
 import React from "react";
+import Home from "../components/Home";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import Certifications from "../components/Certifications";
 import projects from "../data/projects";
 import certifications from "../data/certifications";
 
-const Home = () => {
+const Index = () => {
 	return (
 		<div className="container min-h-screen bg-primary">
+			<div id="home">
+				<Home />
+			</div>
 			<div id="about">
 				<About />
 			</div>
@@ -30,4 +34,4 @@ export async function getStaticProps(ctx) {
 	};
 }
 
-export default Home;
+export default Index;
