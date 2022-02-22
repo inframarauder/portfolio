@@ -3,7 +3,7 @@ import { External } from "./Icons";
 
 const CertificationCard = ({ certification }) => {
 	return (
-		<div className="bg-primary shadow-xl  m-4">
+		<div className="bg-primary shadow-xl border-4 border-highlight rounded-sm m-4">
 			<img
 				src={certification.image}
 				alt={certification.name}

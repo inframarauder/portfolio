@@ -31,7 +31,7 @@ export default [
 		description:
 			"A movie database app that lets you search, rate and review movies and also create your own watchlist. Sign in as admin to add, edit and delete movies.",
 		logo: "/projects/pmdbnext.png",
-		tech: ["Node.js", "Next.js", "React", "MongoDB", "React-Bootstrap"],
+		tech: ["Node.js", "MongoDB", "React", "Next.js", "Bootstrap"],
 		projectLink: "https://pmdbnext.vercel.app",
 		githubLink: "https://github.com/subhasis020299/pmdb-next",
 	},
@@ -65,13 +65,7 @@ export default [
 		description:
 			"An automated cloud function that scans CoWin website periodically and sends email notifications about empty slots.",
 		logo: "/projects/cowin.jpg",
-		tech: [
-			"Node.js",
-			"AWS Lambda",
-			"GitHub Actions",
-			"Serverless",
-			"Nodemailer",
-		],
+		tech: ["Node.js", "AWS Lambda", "GitHub Actions", "Serverless"],
 		projectLink: "https://github.com/subhasis020299/cowin-notifier",
 		githubLink: "https://github.com/subhasis020299/cowin-notifier",
 	},

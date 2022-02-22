@@ -3,7 +3,7 @@ import { External } from "./Icons";
 
 const ProjectCard = ({ project }) => {
 	return (
-		<div className="bg-primary shadow-xl  m-4">
+		<div className="bg-primary shadow-xl border-4 border-highlight rounded-sm  m-4">
 			<img
 				src={project.logo}
 				alt={project.title}
@@ -12,6 +12,8 @@ const ProjectCard = ({ project }) => {
 			<div className="p-4">
 				<h3 className="text-2xl font-bold">{project.title}</h3>
 				<p className="text-md py-2">{project.description}</p>
+				<h3 className="text-lg font-bold px-2 py-4">Tech Stack:</h3>
+
 				<div className="flex flex-wrap">
 					{project.tech.map((tech, index) => (
 						<div className="p-2" key={index}>
