@@ -3,24 +3,22 @@ import SocialLinks from "./SocialLinks";
 
 const Home = () => {
 	return (
-		<div className="grid grid-cols-1 text-secondary min-h-screen">
-			<div className="mx-auto w-full py-6 bg-shaded flex flex-col items-center">
-				<h1 className="text-4xl text-center my-20 p-2 ">
-					<p>Hi, I am Subhasis 🙋</p>
-					<p className=" my-2 text-xs md:text-xl">
-						Fullstack Devloper 👨🏽‍💻 | DevOps Engineer ☁️ | Web3.0 Enthusiast 🔗
-					</p>
-				</h1>
-				<img
-					src="/me.jpg"
-					height={350}
-					width={350}
-					className="border-8 border-highlight rounded-full object-fill"
-				/>
+		<div className="mx-auto w-full py-6 bg-shaded text-secondary min-h-screen flex flex-col items-center">
+			<h1 className="text-4xl text-center mt-10 p-2 ">
+				<p>Hi, I am Subhasis 🙋</p>
+				<p className=" my-2 text-xs md:text-xl">
+					Fullstack Devloper 👨🏽‍💻 | DevOps Engineer ☁️ | Web3.0 Enthusiast 🔗
+				</p>
+			</h1>
+			<img
+				src="/me.jpg"
+				height={350}
+				width={350}
+				className="border-8 border-highlight rounded-full object-fill"
+			/>
 
-				<div className="container mx-auto px-4 text-secondary text-center p-4 flex justify-center items-center">
-					<SocialLinks />
-				</div>
+			<div className="container mx-auto px-4 text-secondary text-center p-4 flex justify-center items-center">
+				<SocialLinks />
 			</div>
 		</div>
 	);
