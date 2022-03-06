@@ -12,17 +12,6 @@ const ProjectCard = ({ project }) => {
 			<div className="p-4">
 				<h3 className="text-2xl font-bold">{project.title}</h3>
 				<p className="text-md py-2">{project.description}</p>
-				<h3 className="text-lg font-bold px-2 py-4">Tech Stack:</h3>
-
-				<div className="flex flex-wrap">
-					{project.tech.map((tech, index) => (
-						<div className="p-2" key={index}>
-							<span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">
-								{tech}
-							</span>
-						</div>
-					))}
-				</div>
 				<div className="flex justify-end items-center my-2">
 					<a
 						href={project.projectLink}
@@ -30,7 +19,7 @@ const ProjectCard = ({ project }) => {
 						rel="noopener noreferrer"
 						className="mx-2"
 					>
-						<button className="bg-highlight text-white font-bold py-2 px-2 rounded-lg flex justify-between items-center">
+						<button className="bg-highlight text-white font-bold py-2 px-2 rounded-lg flex justify-between items-center hover:text-lg transition duration-200 ease-out">
 							<span className="mx-2">View Project</span> <External />
 						</button>
 					</a>
@@ -40,7 +29,7 @@ const ProjectCard = ({ project }) => {
 						rel="noopener noreferrer"
 						className="mx-2"
 					>
-						<button className="bg-highlight text-white font-bold py-2 px-2 rounded-lg flex justify-between items-center">
+						<button className="bg-highlight text-white font-bold py-2 px-2 rounded-lg flex justify-between items-center hover:text-lg transition duration-200 ease-out">
 							<span className="mx-2">View Code</span> <External />
 						</button>
 					</a>

@@ -8,7 +8,7 @@ module.exports = {
 			colors: {
 				primary: "#1A3365",
 				secondary: "#FFFFFF",
-				highlight: "#FF6347",
+				highlight: "#24478E",
 			},
 			backgroundImage: {
 				"hero-pattern": "url('/background.png')",
