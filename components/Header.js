@@ -18,7 +18,7 @@ const Header = () => {
 					<div className="flex space-x-4">
 						<div>
 							<Link href="/">
-								<div className="flex items-center py-5 px-2 text-secondary cursor-pointer">
+								<div className="flex items-center py-5 px-2 text-highlight cursor-pointer">
 									<Home />
 									<span className="font-bold text-2xl ml-4 ">subhasis.dev</span>
 								</div>

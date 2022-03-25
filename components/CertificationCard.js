@@ -3,14 +3,16 @@ import { External } from "./Icons";
 
 const CertificationCard = ({ certification }) => {
 	return (
-		<div className="bg-primary shadow-xl border-4 border-highlight rounded-sm m-4">
+		<div className="bg-primary border-2 border-highlight rounded-xl m-4 p-2">
 			<img
 				src={certification.image}
 				alt={certification.name}
 				className="w-full h-64 object-contain bg-white"
 			/>
 			<div className="p-4">
-				<h3 className="text-2xl font-bold">{certification.name}</h3>
+				<h3 className="text-2xl font-bold text-highlight">
+					{certification.name}
+				</h3>
 				<h4 className="text-lg">Issued By : {certification.issuedBy}</h4>
 
 				<div className="flex justify-end items-center my-2">

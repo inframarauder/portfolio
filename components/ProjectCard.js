@@ -3,14 +3,14 @@ import { External } from "./Icons";
 
 const ProjectCard = ({ project }) => {
 	return (
-		<div className="bg-primary shadow-xl border-4 border-highlight rounded-sm  m-4">
+		<div className="bg-primary border-2 border-highlight rounded-xl  m-4 p-2">
 			<img
 				src={project.logo}
 				alt={project.title}
 				className="w-full h-64 object-fill"
 			/>
 			<div className="p-4">
-				<h3 className="text-2xl font-bold">{project.title}</h3>
+				<h3 className="text-2xl font-bold text-highlight">{project.title}</h3>
 				<p className="text-md py-2">{project.description}</p>
 				<div className="flex justify-end items-center my-2">
 					<a

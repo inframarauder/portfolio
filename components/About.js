@@ -3,7 +3,9 @@ import React from "react";
 const About = () => {
 	return (
 		<div className="flex flex-col justify-center items-center text-secondary min-h-screen">
-			<h1 className="text-4xl text-center my-20 p-2 ">About Me</h1>
+			<h1 className="text-4xl text-center mt-10 py-16 text-highlight">
+				About Me
+			</h1>
 			<div className="w-full md:w-4/5">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 					<div className="px-4">

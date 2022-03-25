@@ -6,9 +6,9 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#1A3365",
+				primary: "#2d2d2d",
 				secondary: "#FFFFFF",
-				highlight: "#24478E",
+				highlight: "#2f80ed",
 			},
 			backgroundImage: {
 				"hero-pattern": "url('/background.png')",

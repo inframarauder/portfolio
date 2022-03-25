@@ -5,7 +5,7 @@ const Home = () => {
 	return (
 		<div className="mx-auto w-full py-6 bg-shaded text-secondary min-h-screen flex flex-col items-center">
 			<h1 className="text-4xl text-center mt-10 p-2 ">
-				<p>Hi, I am Subhasis 🙋</p>
+				<p className="text-highlight">Hi, I am Subhasis 🙋</p>
 				<p className=" my-2 text-xs md:text-xl">
 					Fullstack Devloper 👨🏽‍💻 | DevOps Engineer ☁️ | Web3.0 Enthusiast 🔗
 				</p>

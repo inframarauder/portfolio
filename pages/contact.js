@@ -31,14 +31,9 @@ const Contact = () => {
 	return (
 		<div className="container min-h-screen bg-primary">
 			<div className="flex flex-col justify-center items-center">
-				<h1 className="text-center text-3xl py-4 text-secondary">Contact</h1>
+				<h1 className="text-center text-3xl py-4 text-highlight">Contact</h1>
 				<p className="text-center text-secondary text-lg px-4">
 					Drop me a message below and I will get back to you at the earliest.{" "}
-					<br />
-					You can also find me around the web ...{" "}
-					<span className="flex justify-center">
-						<SocialLinks />
-					</span>
 				</p>
 
 				{loading ? (
