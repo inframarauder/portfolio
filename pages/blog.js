@@ -14,8 +14,8 @@ const Blog = () => {
 				<p className=" text-secondary px-4 py-4 text-3xl"> Recent Blogs</p>
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 					{/**blog card */}
-					{blogs.map((blog) => (
-						<BlogCard blog={blog} />
+					{blogs.map((blog,i) => (
+						<BlogCard key={i} blog={blog} />
 					))}
 				</div>
 				<p className="text-center text-secondary text-lg px-4 my-4">
