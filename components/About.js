@@ -55,12 +55,12 @@ const About = () => {
 							, during my college days. I am currently working full-time as a
 							DevOps Engineer at{" "}
 							<a
-								href="https://tcs.com/"
+								href="https://invideo.io/"
 								target="_blank"
 								rel="noreferrer"
 								className="cursor-pointer hover:text-highlight hover:underline transition duration-200"
 							>
-								Tata Consultancy Services.
+								InVideo
 							</a>
 						</p>
 					</div>
@@ -68,11 +68,10 @@ const About = () => {
 				<div className="grid grid-cols-1 md:grid-cols-2">
 					<div className="text-lg text-justify px-4 py-4">
 						<p className="py-2">
-							My expertise lies in fullstack development using Javascript
-							(specifically Node.js, MongoDB, React) and cloud and devops
-							engineering (AWS, Docker, Kubernetes, Terraform). I have desgined,
-							developed and deployed full-scale microservices as well as
-							web-applications.
+							My expertise lies in Cloud and DevOps engineering (AWS, Docker,
+							Kubernetes, Terraform). I am also experienced in full-stack
+							development using the MERN stack. I have desgined, developed and
+							deployed full-scale microservices as well as web-applications.
 						</p>
 						<p className="py-2">
 							I am a huge fan of serverless technologies and infrastructure
