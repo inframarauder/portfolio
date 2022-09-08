@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import SocialLinks from "../components/SocialLinks";
 import Loader from "../components/Loader";
 import axios from "axios";
 

@@ -44,15 +44,7 @@ const Header = () => {
 								<Link href="/contact">Contact</Link>
 							</li>
 							<li className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200">
-								<a
-									href="https://medium.com/@subhasisdas125"
-									target="_blank"
-									rel="noreferrer"
-								>
-									<span className="flex justify-between items-center">
-										<span className="mr-2">Blog</span> <External />
-									</span>
-								</a>
+								<Link href="/blog">Blog</Link>
 							</li>
 						</ul>
 					</div>
@@ -119,15 +111,7 @@ const Header = () => {
 							onClick={toggleMenu}
 							className="mx-2 p-2 text-lg cursor-pointer hover:text-xl hover:underline hover:text-highlight transition duration-200"
 						>
-							<a
-								href="https://medium.com/@subhasisdas125"
-								target="_blank"
-								rel="noreferrer"
-							>
-								<span className="flex justify-between items-center">
-									<span className="mr-2">Blog</span> <External />
-								</span>
-							</a>
+							<Link href="/blog">Blog</Link>
 						</li>
 					</ul>
 				</div>
