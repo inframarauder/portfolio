@@ -7,7 +7,7 @@ const Home = () => {
 			<h1 className="text-4xl text-center mt-10 p-2 ">
 				<p className="text-highlight">Hi, I am Subhasis 🙋</p>
 				<p className=" my-2 text-xs md:text-xl">
-					DevOps Engineer ☁️| Fullstack Devloper 👨🏽‍💻 | Web3.0 Enthusiast 🔗
+					DevOps Engineer ☁️ | Platform Engineer 🚉 | Fullstack Devloper 👨🏽‍💻
 				</p>
 			</h1>
 			<img

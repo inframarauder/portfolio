@@ -29,7 +29,7 @@ const About = () => {
 								href="https://www.heritageit.edu/"
 								target="_blank"
 								rel="noreferrer"
-								className="cursor-pointer hover:text-highlight hover:underline transition duration-200"
+								className="cursor-pointer text-highlight hover:underline transition duration-200"
 							>
 								Heritage Institute of Technology, Kolkata
 							</a>{" "}
@@ -39,7 +39,7 @@ const About = () => {
 								href="https://dschit.com/"
 								target="_blank"
 								rel="noreferrer"
-								className="cursor-pointer hover:text-highlight hover:underline transition duration-200"
+								className="cursor-pointer text-highlight hover:underline transition duration-200"
 							>
 								DSC HIT
 							</a>{" "}
@@ -48,19 +48,19 @@ const About = () => {
 								href="https://gdgkolkata.org/"
 								target="_blank"
 								rel="noreferrer"
-								className="cursor-pointer hover:text-highlight hover:underline transition duration-200"
+								className="cursor-pointer text-highlight hover:underline transition duration-200"
 							>
 								GDG Kolkata
 							</a>
 							, during my college days. I am currently working full-time as a
 							DevOps Engineer at{" "}
 							<a
-								href="https://invideo.io/"
+								href="https://compile.com/"
 								target="_blank"
 								rel="noreferrer"
-								className="cursor-pointer hover:text-highlight hover:underline transition duration-200"
+								className="cursor-pointer text-highlight hover:underline transition duration-200"
 							>
-								InVideo
+								Compile Inc.
 							</a>
 						</p>
 					</div>

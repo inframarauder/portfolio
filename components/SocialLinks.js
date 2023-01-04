@@ -32,7 +32,7 @@ const SocialLinks = () => {
 				/>
 			</a>
 			<a
-				href="https://twitter.com/geram_er_chhele"
+				href="https://twitter.com/subhasis020299"
 				target="_blank"
 				rel="noopener noreferrer"
 				className="mx-2 border-4 border-highlight rounded-full"

@@ -8,7 +8,7 @@ import certifications from "../data/certifications";
 
 const Index = () => {
 	return (
-		<div className="container min-h-screen bg-primary">
+		<div className="min-h-screen bg-primary">
 			<div id="home">
 				<Home />
 			</div>
