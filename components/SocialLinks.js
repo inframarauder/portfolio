@@ -4,7 +4,7 @@ const SocialLinks = () => {
 	return (
 		<>
 			<a
-				href="https://github.com/subhasis020299"
+				href="https://github.com/inframarauder"
 				target="_blank"
 				rel="noopener noreferrer"
 				className="mx-2 border-4 border-highlight rounded-full"
@@ -18,7 +18,7 @@ const SocialLinks = () => {
 				/>
 			</a>
 			<a
-				href="https://linkedin.com/in/subhasis020299"
+				href="https://linkedin.com/in/inframarauder"
 				target="_blank"
 				rel="noopener noreferrer"
 				className="mx-2 border-4 border-highlight rounded-full"
@@ -32,7 +32,7 @@ const SocialLinks = () => {
 				/>
 			</a>
 			<a
-				href="https://twitter.com/subhasis020299"
+				href="https://twitter.com/inframarauder"
 				target="_blank"
 				rel="noopener noreferrer"
 				className="mx-2 border-4 border-highlight rounded-full"
